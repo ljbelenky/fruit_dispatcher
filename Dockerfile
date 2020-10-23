@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN pip install --upgrade pip
 
-RUN pip install numpy flask matplotlib pandas
+RUN pip install numpy flask pandas
 
 EXPOSE 5000
 
